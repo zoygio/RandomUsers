@@ -1,0 +1,40 @@
+.title {
+	margin: 70px;
+	text-align: center;
+  }
+  
+  .buttons {
+	margin: -40px auto 40px;
+	text-align: center;
+  }
+  
+  .btn {
+	margin: 0 5px;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	color: rgb(107, 237, 114);
+	background-color: transparent;
+	transition: background-color 0.3s, box-shadow 0.3s;
+	cursor: pointer;
+  }
+  
+  .btn-add {
+	background-color: rgb(0, 153, 255);
+  }
+  
+  .btn-add:hover {
+	background-color: rgb(2, 112, 162);
+	box-shadow: 0 0 10px rgba(0, 153, 255, 0.7);
+  }
+  
+  .btn-delete {
+	background-color: rgb(200, 43, 22);
+  }
+  
+  .btn-delete:hover {
+	background-color: rgb(140, 29, 14);
+	box-shadow: 0 0 10px rgba(200, 43, 22, 0.7);
+  }
+  

@@ -1,0 +1,64 @@
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+	padding: 20px 0;
+	background: rgb(194, 251, 248);
+	font-family: 'SST', sans-serif;
+}
+
+#app {
+	display: grid;
+	gap: 50px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+	display: grid;
+	gap: 20px;
+	width: 100%;
+	margin: 0 auto;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+	padding: 30px;
+	background: rgb(248, 4, 4);
+	box-shadow: 5px 5px 25px #ee0404;
+	border-radius: 45px;
+	text-align: center;
+}
+
+.card-img-top {
+	width: 200px;
+	border-radius: 50%;
+}
+
+img {
+	width: 100%;
+}
+
+.card-title-user {
+	margin: 20px 0 0 0;
+}
+
+.selected {
+	color: red; /* Cambia el color según tus necesidades */
+}
+.card {
+	padding: 30px;
+	background: rgb(228, 8, 8);
+	box-shadow: 5px 5px 25px #090909;
+	border-radius: 45px;
+	text-align: center;
+
+	transform-style: preserve-3d;
+	transform: perspective(1000px) rotateY(0deg);
+	transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+	transform: perspective(1000px) rotateY(360deg);
+}
